@@ -7,15 +7,16 @@ export default Service.extend(Evented, {
   init() {
     this._super(...arguments);
     Ember.$(window).on('scroll', (e) => {
-      Ember.run.next(() => {
-        this.set('scrollTop', Ember.$(window).scrollTop());
-      });
-      this.trigger('scroll', e);
+      this._onScroll(e, Ember.$(window).scrollTop());
     });
     this.set('scrollTop', Ember.$(window).scrollTop());
   },
   destroy() {
     this._super(...arguments);
     Ember.$(window).off('scroll');
+  },
+  _onScroll(e, top) {
+    this.set('scrollTop', top);
+    this.trigger('scroll', e);
   }
 });
