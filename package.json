@@ -1,6 +1,6 @@
 {
   "name": "ember-windowscroll",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An Ember.Service for window scroll events",
   "directories": {
     "doc": "doc",
