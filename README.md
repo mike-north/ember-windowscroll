@@ -1,7 +1,7 @@
 # This addon is deprecated!
-Please use [ember-windoc](https://github.com/levanto-financial/ember-windoc) instead
+Please use [ember-windoc](https://github.com/mike-north/ember-windoc) instead
 
-# ember-windowscroll [![Build Status](https://travis-ci.org/levanto-financial/ember-windowscroll.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-windowscroll)
+# ember-windowscroll [![Build Status](https://travis-ci.org/mike-north/ember-windowscroll.svg?branch=master)](https://travis-ci.org/mike-north/ember-windowscroll)
 
 A simple service for consuming the `window.onScroll` event, and using `window.scrollTop` in Ember.js apps and addons. The motivation for building this, was to avoid creating very similar services across multiple addons.
 
