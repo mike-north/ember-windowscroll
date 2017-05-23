@@ -1,19 +1,19 @@
 import Ember from 'ember';
 
-const { Service, Evented } = Ember;
+const { Service, Evented, $ } = Ember;
 
 export default Service.extend(Evented, {
   scrollTop: null,
   init() {
     this._super(...arguments);
-    Ember.$(window).on('scroll', (e) => {
-      this._onScroll(e, Ember.$(window).scrollTop());
+    $(window).on('scroll', (e) => {
+      this._onScroll(e, $(window).scrollTop());
     });
-    this.set('scrollTop', Ember.$(window).scrollTop());
+    this.set('scrollTop', $(window).scrollTop());
   },
   destroy() {
     this._super(...arguments);
-    Ember.$(window).off('scroll');
+    $(window).off('scroll');
   },
   _onScroll(e, top) {
     this.set('scrollTop', top);
