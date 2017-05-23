@@ -1,4 +1,6 @@
 # This addon is deprecated!
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/ember-windowscroll.svg)](https://greenkeeper.io/)
 Please use [ember-windoc](https://github.com/mike-north/ember-windoc) instead
 
 # ember-windowscroll [![Build Status](https://travis-ci.org/mike-north/ember-windowscroll.svg?branch=master)](https://travis-ci.org/mike-north/ember-windowscroll)
