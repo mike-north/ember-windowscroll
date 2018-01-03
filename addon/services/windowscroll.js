@@ -1,6 +1,6 @@
-import Ember from 'ember';
-
-const { Service, Evented, $ } = Ember;
+import Service from '@ember/service';
+import Evented from '@ember/object/evented';
+import $ from 'jquery';
 
 export default Service.extend(Evented, {
   scrollTop: null,
