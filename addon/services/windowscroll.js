@@ -1,12 +1,13 @@
-import Ember from 'ember';
-
-const { Service, Evented, $ } = Ember;
+import Service from '@ember/service';
+import Evented from '@ember/object/evented';
+import $ from 'jquery';
 
 export default Service.extend(Evented, {
   scrollTop: null,
   init() {
     this._super(...arguments);
-    $(window).on('scroll', (e) => {
+    $(window).on('scroll', e => {
+      // eslint-disable-next-line
       this._onScroll(e, $(window).scrollTop());
     });
     this.set('scrollTop', $(window).scrollTop());
