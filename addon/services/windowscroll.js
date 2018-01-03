@@ -7,6 +7,7 @@ export default Service.extend(Evented, {
   init() {
     this._super(...arguments);
     $(window).on('scroll', e => {
+      // eslint-disable-next-line
       this._onScroll(e, $(window).scrollTop());
     });
     this.set('scrollTop', $(window).scrollTop());
