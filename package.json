@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "ember build",
-    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js": "eslint .",
     "start": "ember server",
     "test": "ember try:each",
     "travis-deploy-once": "travis-deploy-once",
@@ -44,6 +44,7 @@
     "ember-load-initializers": "^2.0.0",
     "ember-resolver": "^5.0.1",
     "ember-source": "^3.5.1",
+    "ember-source-channel-url": "^1.1.0",
     "ember-try": "^1.1.0",
     "eslint-plugin-ember": "^5.4.0",
     "eslint-plugin-node": "^8.0.0",
