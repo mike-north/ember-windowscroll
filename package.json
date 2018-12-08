@@ -49,7 +49,7 @@
     "ember-try": "1.1.0",
     "eslint-plugin-ember": "5.4.0",
     "eslint-plugin-node": "8.0.0",
-    "semantic-release": "15.12.3",
+    "semantic-release": "15.12.4",
     "loader.js": "4.7.0"
   },
   "keywords": [
