@@ -47,7 +47,7 @@
     "ember-source-channel-url": "1.2.0",
     "ember-source": "4.5.0",
     "ember-try": "1.4.0",
-    "eslint-plugin-ember": "10.6.1",
+    "eslint-plugin-ember": "11.0.0",
     "eslint-plugin-node": "11.1.0",
     "semantic-release": "15.12.5",
     "loader.js": "4.7.0"
